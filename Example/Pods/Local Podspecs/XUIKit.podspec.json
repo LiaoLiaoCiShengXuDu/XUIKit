@@ -1,8 +1,8 @@
 {
   "name": "XUIKit",
   "version": "0.1.0",
-  "summary": "A short description of XUIKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Commonly used code",
+  "description": "Commonly used code,like UIView+Extension",
   "homepage": "https://github.com/LiaoLiaoCiShengXuDu/XUIKit",
   "license": {
     "type": "MIT",
@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "XUIKit/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "XUIKit/Classes/**/*",
+  "swift_version": "5.0"
 }

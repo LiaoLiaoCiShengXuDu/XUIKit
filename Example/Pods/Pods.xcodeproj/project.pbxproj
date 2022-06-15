@@ -9,27 +9,27 @@
 /* Begin PBXBuildFile section */
 		0375A42EFC0DF5FDE6CBC5CF3C9235AD /* Pods-XUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA4B23986B82C0103CD803572785A1EA /* Pods-XUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0758A5825F5E8DD03B04F3AACBBBADBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2CCAA708A6321B7C94A9D7E601A7DC4F /* XUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A9A79FBC26930D6A7A467F899FDD6 /* XUIKit-dummy.m */; };
-		4662F3B92859CDEE00362FAE /* XNibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4662F3B82859CDEE00362FAE /* XNibable.swift */; };
-		4662F3BB2859D22F00362FAE /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4662F3BA2859D22F00362FAE /* UIColor+extension.swift */; };
-		4662F3BD2859D7D300362FAE /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4662F3BC2859D7D300362FAE /* UIView+extension.swift */; };
-		488EF6AC3165FDAC3528490A4410D96C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		601CB5F0351B55185A6544A677512232 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694034EDE084DC9B6607AEB2B2E1090 /* UIColor+extension.swift */; };
 		740E86D6A402E1C5AFBB7BF25AAFEFA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A8864EF601EDBF01A31374F454324105 /* XUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41822A712FF63AC06BFE5C0B0E21D73A /* XUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABD8D5ADCFDEE82B2E3BA9735467A8DA /* XUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD144CC942C750C07E3C87486818411C /* XUIKit-dummy.m */; };
+		AC2E23D68C8230F59684188444756DA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AC84233E75673A87D2B9030E4778458C /* Pods-XUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A2BF4A6C4975AD11D0313243A40C5 /* Pods-XUIKit_Example-dummy.m */; };
+		ADBBD1DC00CDE871D5CABA7C6E723EEC /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8239B53D75BB08E9D07BC3BB69B86 /* UIView+extension.swift */; };
+		BC56638E9D1A95D02F9EB22FF971EDE6 /* XNibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E37053BC5A1CA49F8F9228FE236A4D /* XNibable.swift */; };
 		BFD11E64DC7089D733A25EDDBCC6D869 /* Pods-XUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E076383DA0866E414D0A369E4A6EC81 /* Pods-XUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE48838C31431259125A197E9D0B2F9D /* XUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D02C0332CB419B896AEEB784D61CEF0C /* XUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF2A967FFF6D4D752682A1D722075615 /* Pods-XUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AB87880CBAD14A3198618F48767936 /* Pods-XUIKit_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		361E4C7E59A4112C012E86F9F2E409ED /* PBXContainerItemProxy */ = {
+		61AD275E36E861EF6A636703CA921901 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 037A34E6DFC17602977E28F643105E2E;
 			remoteInfo = "Pods-XUIKit_Example";
 		};
-		4E453887C97686BA035D4BF56134934D /* PBXContainerItemProxy */ = {
+		CDB0377521C12237A3D2FBBFC00BF846 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -41,38 +41,38 @@
 /* Begin PBXFileReference section */
 		02CAA1029AB8D645C70DED828C0888B8 /* Pods-XUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XUIKit_Tests.modulemap"; sourceTree = "<group>"; };
 		0B367358F794452D804DB477E38553A2 /* Pods-XUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0EEBE2562CD4DE712DEF6DDB000B269E /* XUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XUIKit-prefix.pch"; sourceTree = "<group>"; };
 		1D830526D0DEE01EE08C517E09E0BF7A /* Pods-XUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XUIKit_Example-Info.plist"; sourceTree = "<group>"; };
+		2FB8239B53D75BB08E9D07BC3BB69B86 /* UIView+extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
 		32DC970F13E658B6771F8C56E24B207E /* Pods-XUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		32E37053BC5A1CA49F8F9228FE236A4D /* XNibable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XNibable.swift; sourceTree = "<group>"; };
 		38A2C1B9A2F6284B58D7584C4C4D2752 /* Pods-XUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3A5C76E23B6ABD9F6A2F67C2B200D236 /* XUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		3C3A9A79FBC26930D6A7A467F899FDD6 /* XUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XUIKit-dummy.m"; sourceTree = "<group>"; };
 		3E076383DA0866E414D0A369E4A6EC81 /* Pods-XUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		4662F3B82859CDEE00362FAE /* XNibable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XNibable.swift; sourceTree = "<group>"; };
-		4662F3BA2859D22F00362FAE /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
-		4662F3BC2859D7D300362FAE /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		41822A712FF63AC06BFE5C0B0E21D73A /* XUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XUIKit-umbrella.h"; sourceTree = "<group>"; };
+		44534452DE37216C52EF067CFB43D25D /* XUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XUIKit.release.xcconfig; sourceTree = "<group>"; };
 		64E9C6A234D1E362F8500454B28F5153 /* Pods-XUIKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XUIKit_Tests"; path = Pods_XUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B6E08AD9B2AD80A17C6C68065BBFB5E /* XUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XUIKit.modulemap; sourceTree = "<group>"; };
 		6FA817DCD22191594FB69B1FD5DAEA43 /* Pods-XUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XUIKit_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C0E9CAF2A8A181B3BA5EBDD7F59B6CB /* XUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7FE14870EBA11FE10769D75DBF29CD8A /* Pods-XUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		843AD1797191EA9A116BF104A8EBA571 /* Pods-XUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		89CA2CD8248A3398112B534149E52060 /* XUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XUIKit-prefix.pch"; sourceTree = "<group>"; };
-		9376F0716AF5B8A63D7CCC1FCB5B81FD /* Pods_XUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		960DE09E87E25638F02347D7F4E72B5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9294032D27123B07F2BEBA8E92DD7F35 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9376F0716AF5B8A63D7CCC1FCB5B81FD /* Pods-XUIKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XUIKit_Example"; path = Pods_XUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97350DC2360DD19D45147D97B5392D95 /* XUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XUIKit-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0AB87880CBAD14A3198618F48767936 /* Pods-XUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		B0DD1C1448F23EFF7953DECE97B01F1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B24E329C7B7D250324323296AC99F609 /* XUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XUIKit.modulemap; sourceTree = "<group>"; };
+		B694034EDE084DC9B6607AEB2B2E1090 /* UIColor+extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
 		BA4B23986B82C0103CD803572785A1EA /* Pods-XUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BD9956C67C6E3A1C7C3290DC44C5ED09 /* XUIKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XUIKit; path = XUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71421D96699392DC0DA7369F58EA139 /* Pods-XUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CA323BDCBDFA86518B2846849B32918D /* XUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XUIKit.release.xcconfig; sourceTree = "<group>"; };
-		D02C0332CB419B896AEEB784D61CEF0C /* XUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XUIKit-umbrella.h"; sourceTree = "<group>"; };
+		C96D88DDE3C84A4220291364163550BB /* XUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		CD144CC942C750C07E3C87486818411C /* XUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XUIKit-dummy.m"; sourceTree = "<group>"; };
 		D19A2BF4A6C4975AD11D0313243A40C5 /* Pods-XUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XUIKit_Example-dummy.m"; sourceTree = "<group>"; };
 		DB2F6D5465FC05ABB214AF348A82A339 /* Pods-XUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E51E480ADF31140983E2E0C51943FF13 /* XUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XUIKit-Info.plist"; sourceTree = "<group>"; };
-		E6DD650AF9578DD52040E93C2103D72B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E7E1706754E5C0CC63955E39A2A85AE7 /* Pods-XUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		EBE196694BFD85389E41A3E1F4DE0F14 /* Pods-XUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F3081BC7AE6C851D46E9555A35DEC28D /* XUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XUIKit.debug.xcconfig; sourceTree = "<group>"; };
 		FB3291417825FEE9831B4F00AE94C108 /* Pods-XUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,14 +85,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8382BAFAEB1890F8DFFAAAFE1B98CEB0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				488EF6AC3165FDAC3528490A4410D96C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8C15947EE919E432DC1F4E4F5F2EFA43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,9 +93,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3C8791F2DC8282809B927A4844845F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2E23D68C8230F59684188444756DA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A56125837B70AC343443C2446D4DD4B /* Extesion */ = {
+			isa = PBXGroup;
+			children = (
+				B694034EDE084DC9B6607AEB2B2E1090 /* UIColor+extension.swift */,
+				2FB8239B53D75BB08E9D07BC3BB69B86 /* UIView+extension.swift */,
+			);
+			name = Extesion;
+			path = XUIKit/Classes/Extesion;
+			sourceTree = "<group>";
+		};
+		1F2BAFB3CC8681B723D3CB88857022C5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7F2C3C01B0367DCD1F645C4EEB72843 /* XUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		24C8B21E111BBFFDCA4E8CAEF1B6BA31 /* Pods-XUIKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,38 +148,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		41DFFDEC0F744B5AF452DF8C90C51B34 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6B6E08AD9B2AD80A17C6C68065BBFB5E /* XUIKit.modulemap */,
-				3C3A9A79FBC26930D6A7A467F899FDD6 /* XUIKit-dummy.m */,
-				E51E480ADF31140983E2E0C51943FF13 /* XUIKit-Info.plist */,
-				89CA2CD8248A3398112B534149E52060 /* XUIKit-prefix.pch */,
-				D02C0332CB419B896AEEB784D61CEF0C /* XUIKit-umbrella.h */,
-				F3081BC7AE6C851D46E9555A35DEC28D /* XUIKit.debug.xcconfig */,
-				CA323BDCBDFA86518B2846849B32918D /* XUIKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XUIKit";
-			sourceTree = "<group>";
-		};
-		4662F3B62859CD8F00362FAE /* Extesion */ = {
-			isa = PBXGroup;
-			children = (
-				4662F3BA2859D22F00362FAE /* UIColor+extension.swift */,
-				4662F3BC2859D7D300362FAE /* UIView+extension.swift */,
-			);
-			path = Extesion;
-			sourceTree = "<group>";
-		};
-		4662F3B72859CD9B00362FAE /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				4662F3B82859CDEE00362FAE /* XNibable.swift */,
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,41 +172,30 @@
 			path = "Target Support Files/Pods-XUIKit_Tests";
 			sourceTree = "<group>";
 		};
-		AE53F77A075AB402D842DD0B7D2E16C4 /* Pod */ = {
+		96EB009F474DCA9B12DFCD242ACAC19C /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				960DE09E87E25638F02347D7F4E72B5E /* LICENSE */,
-				E6DD650AF9578DD52040E93C2103D72B /* README.md */,
-				3A5C76E23B6ABD9F6A2F67C2B200D236 /* XUIKit.podspec */,
+				32E37053BC5A1CA49F8F9228FE236A4D /* XNibable.swift */,
+			);
+			name = Protocol;
+			path = XUIKit/Classes/Protocol;
+			sourceTree = "<group>";
+		};
+		9A5B9759B801D989129094D76B99ED9F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9294032D27123B07F2BEBA8E92DD7F35 /* LICENSE */,
+				B0DD1C1448F23EFF7953DECE97B01F1B /* README.md */,
+				7C0E9CAF2A8A181B3BA5EBDD7F59B6CB /* XUIKit.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		B6017A42F8563D5660C82C1E529AA550 /* XUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				4662F3B72859CD9B00362FAE /* Protocol */,
-				4662F3B62859CD8F00362FAE /* Extesion */,
-				AE53F77A075AB402D842DD0B7D2E16C4 /* Pod */,
-				41DFFDEC0F744B5AF452DF8C90C51B34 /* Support Files */,
-			);
-			name = XUIKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B9D4DCE18B8E95386109327C074F6B0F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B6017A42F8563D5660C82C1E529AA550 /* XUIKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B9D4DCE18B8E95386109327C074F6B0F /* Development Pods */,
+				1F2BAFB3CC8681B723D3CB88857022C5 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				DF46442FBDDB1F984995A5B518295358 /* Products */,
 				357D8C9ADB60C7F92A45684D9AD2D402 /* Targets Support Files */,
@@ -235,14 +210,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D7F2C3C01B0367DCD1F645C4EEB72843 /* XUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1A56125837B70AC343443C2446D4DD4B /* Extesion */,
+				9A5B9759B801D989129094D76B99ED9F /* Pod */,
+				96EB009F474DCA9B12DFCD242ACAC19C /* Protocol */,
+				FC85039F5288B7FE29F56D1EE98DB076 /* Support Files */,
+			);
+			name = XUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		DF46442FBDDB1F984995A5B518295358 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9376F0716AF5B8A63D7CCC1FCB5B81FD /* Pods_XUIKit_Example.framework */,
+				9376F0716AF5B8A63D7CCC1FCB5B81FD /* Pods-XUIKit_Example */,
 				64E9C6A234D1E362F8500454B28F5153 /* Pods-XUIKit_Tests */,
 				BD9956C67C6E3A1C7C3290DC44C5ED09 /* XUIKit */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FC85039F5288B7FE29F56D1EE98DB076 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B24E329C7B7D250324323296AC99F609 /* XUIKit.modulemap */,
+				CD144CC942C750C07E3C87486818411C /* XUIKit-dummy.m */,
+				97350DC2360DD19D45147D97B5392D95 /* XUIKit-Info.plist */,
+				0EEBE2562CD4DE712DEF6DDB000B269E /* XUIKit-prefix.pch */,
+				41822A712FF63AC06BFE5C0B0E21D73A /* XUIKit-umbrella.h */,
+				C96D88DDE3C84A4220291364163550BB /* XUIKit.debug.xcconfig */,
+				44534452DE37216C52EF067CFB43D25D /* XUIKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XUIKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,11 +266,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA25C3C28662FAA555EDB3D7AEB4231D /* Headers */ = {
+		D6EAFAEBDE596B82F5B50A1251C13747 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE48838C31431259125A197E9D0B2F9D /* XUIKit-umbrella.h in Headers */,
+				A8864EF601EDBF01A31374F454324105 /* XUIKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +289,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				7DD716A20F53AD78652BD3CC91AA587B /* PBXTargetDependency */,
+				7BB6CE13C10F127B226830E42EF83060 /* PBXTargetDependency */,
 			);
 			name = "Pods-XUIKit_Example";
 			productName = Pods_XUIKit_Example;
-			productReference = 9376F0716AF5B8A63D7CCC1FCB5B81FD /* Pods_XUIKit_Example.framework */;
+			productReference = 9376F0716AF5B8A63D7CCC1FCB5B81FD /* Pods-XUIKit_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		30D507F46A2E7B25C78F7ADC2F662158 /* Pods-XUIKit_Tests */ = {
@@ -306,7 +308,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B093B37B6860CE5FDB5180947D414056 /* PBXTargetDependency */,
+				801425CF01B59BCA45863307179C19F4 /* PBXTargetDependency */,
 			);
 			name = "Pods-XUIKit_Tests";
 			productName = Pods_XUIKit_Tests;
@@ -315,12 +317,12 @@
 		};
 		49D09F649931A43A24E7A8AA37F18AF7 /* XUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5037C8112B0A77F4521FC04FFF5D1778 /* Build configuration list for PBXNativeTarget "XUIKit" */;
+			buildConfigurationList = 376D85F3A97C60AD81FA45586B12BE5E /* Build configuration list for PBXNativeTarget "XUIKit" */;
 			buildPhases = (
-				AA25C3C28662FAA555EDB3D7AEB4231D /* Headers */,
-				EC8FA3E2969DFDF9F65D3EB178D8B99A /* Sources */,
-				8382BAFAEB1890F8DFFAAAFE1B98CEB0 /* Frameworks */,
-				F38F87706C210899A56503C009571BDD /* Resources */,
+				D6EAFAEBDE596B82F5B50A1251C13747 /* Headers */,
+				B0665B481D4F7BF46E25730B40394EA8 /* Sources */,
+				E3C8791F2DC8282809B927A4844845F4 /* Frameworks */,
+				225FA583C360EE5A4F59440C03F462B2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,11 +341,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
-				TargetAttributes = {
-					037A34E6DFC17602977E28F643105E2E = {
-						LastSwiftMigration = 1340;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -366,6 +363,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		225FA583C360EE5A4F59440C03F462B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48487F33E1FA81D42428C0D26205791C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,13 +378,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		954E11198B92DE0FE6B6B7180A07E92E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F38F87706C210899A56503C009571BDD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -398,73 +395,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0665B481D4F7BF46E25730B40394EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601CB5F0351B55185A6544A677512232 /* UIColor+extension.swift in Sources */,
+				ADBBD1DC00CDE871D5CABA7C6E723EEC /* UIView+extension.swift in Sources */,
+				BC56638E9D1A95D02F9EB22FF971EDE6 /* XNibable.swift in Sources */,
+				ABD8D5ADCFDEE82B2E3BA9735467A8DA /* XUIKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C00E4A5E594DCE14D4B289EBA9367AA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4662F3BB2859D22F00362FAE /* UIColor+extension.swift in Sources */,
-				4662F3B92859CDEE00362FAE /* XNibable.swift in Sources */,
-				4662F3BD2859D7D300362FAE /* UIView+extension.swift in Sources */,
 				AC84233E75673A87D2B9030E4778458C /* Pods-XUIKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC8FA3E2969DFDF9F65D3EB178D8B99A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CCAA708A6321B7C94A9D7E601A7DC4F /* XUIKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7DD716A20F53AD78652BD3CC91AA587B /* PBXTargetDependency */ = {
+		7BB6CE13C10F127B226830E42EF83060 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XUIKit;
 			target = 49D09F649931A43A24E7A8AA37F18AF7 /* XUIKit */;
-			targetProxy = 4E453887C97686BA035D4BF56134934D /* PBXContainerItemProxy */;
+			targetProxy = CDB0377521C12237A3D2FBBFC00BF846 /* PBXContainerItemProxy */;
 		};
-		B093B37B6860CE5FDB5180947D414056 /* PBXTargetDependency */ = {
+		801425CF01B59BCA45863307179C19F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XUIKit_Example";
 			target = 037A34E6DFC17602977E28F643105E2E /* Pods-XUIKit_Example */;
-			targetProxy = 361E4C7E59A4112C012E86F9F2E409ED /* PBXContainerItemProxy */;
+			targetProxy = 61AD275E36E861EF6A636703CA921901 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10F7DC44D6927090FC2804B831398F4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3081BC7AE6C851D46E9555A35DEC28D /* XUIKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XUIKit/XUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XUIKit/XUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XUIKit/XUIKit.modulemap";
-				PRODUCT_MODULE_NAME = XUIKit;
-				PRODUCT_NAME = XUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -531,6 +498,36 @@
 			};
 			name = Debug;
 		};
+		4BB0C051EA6702BE53EFACEB25C6EE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96D88DDE3C84A4220291364163550BB /* XUIKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XUIKit/XUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XUIKit/XUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XUIKit/XUIKit.modulemap";
+				PRODUCT_MODULE_NAME = XUIKit;
+				PRODUCT_NAME = XUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		594E2CF96F02FDFD4EF53AB2B7A90497 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 32DC970F13E658B6771F8C56E24B207E /* Pods-XUIKit_Tests.release.xcconfig */;
@@ -569,7 +566,6 @@
 			baseConfigurationReference = 7FE14870EBA11FE10769D75DBF29CD8A /* Pods-XUIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -591,13 +587,42 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		C8C2D0A1E170FC2015BE058AB13CC73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44534452DE37216C52EF067CFB43D25D /* XUIKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XUIKit/XUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XUIKit/XUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XUIKit/XUIKit.modulemap";
+				PRODUCT_MODULE_NAME = XUIKit;
+				PRODUCT_NAME = XUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -654,7 +679,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -692,43 +718,11 @@
 			};
 			name = Debug;
 		};
-		EEE4A2790409C3F3C6E3FBB8CA4A1C91 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA323BDCBDFA86518B2846849B32918D /* XUIKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XUIKit/XUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XUIKit/XUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XUIKit/XUIKit.modulemap";
-				PRODUCT_MODULE_NAME = XUIKit;
-				PRODUCT_NAME = XUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F7E037DF6D2B1F34A5FD67288E8F0248 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBE196694BFD85389E41A3E1F4DE0F14 /* Pods-XUIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -750,7 +744,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -770,20 +763,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		376D85F3A97C60AD81FA45586B12BE5E /* Build configuration list for PBXNativeTarget "XUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB0C051EA6702BE53EFACEB25C6EE48 /* Debug */,
+				C8C2D0A1E170FC2015BE058AB13CC73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5037C8112B0A77F4521FC04FFF5D1778 /* Build configuration list for PBXNativeTarget "XUIKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10F7DC44D6927090FC2804B831398F4C /* Debug */,
-				EEE4A2790409C3F3C6E3FBB8CA4A1C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
