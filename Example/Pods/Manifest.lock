@@ -1,0 +1,16 @@
+PODS:
+  - XUIKit (0.1.0)
+
+DEPENDENCIES:
+  - XUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  XUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XUIKit: 5463ad1b70fdf4eefe2233fc46772501ed998ddc
+
+PODFILE CHECKSUM: b42a2b34331caca7f1dae3f23120862eaea82f86
+
+COCOAPODS: 1.11.3
